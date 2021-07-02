@@ -5,7 +5,7 @@
         <script defer src="./index.js"></script>
     </head>
     <body>
-        <h>HANGMAN</h>
+        <h id="gameTitle">HANGMAN</h>
         <div id="gameBox">
             <div id="wordBox">
                 <table id="wordTableOutside">
@@ -51,6 +51,13 @@
                     </tr>
                 </table>
             </div>
+        </div>
+
+        <div id="overBox">
+            <h id="gameOverHeader"></h>
+            <h1 id="correctAnswerText">THE WORD WAS:</h1>
+            <h1 id="correctAnswer"></h1>
+            <button id="restartButton">RESTART</button>
         </div>
     </body>
 </html>

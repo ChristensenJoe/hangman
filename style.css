@@ -1,4 +1,4 @@
-h {
+#gameTitle {
     color: #2D8F4E;
     text-align: center;
     font-size: 40pt;
@@ -8,6 +8,11 @@ h {
     top: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
 }
 
 body {
@@ -96,4 +101,82 @@ body {
     padding: 5px;
     border: 1px solid black;
     font-size: 40pt;
+}
+
+#overBox {
+    display: none;
+    border: 10px ridge #50C878;
+    width: 800px;
+    height: 800px;
+    background-color: grey;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-content: center;
+}
+
+#gameOverHeader {
+    color: #00b300;
+    text-align: center;
+    font-size: 50pt;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#correctAnswer {
+    color: #0059b3;
+    text-align: center;
+    font-size: 50pt;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+#correctAnswerText {
+    color: #00b300;
+    text-align: center;
+    font-size: 30pt;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#restartButton {
+    border: 6px ridge #50C878;
+    color: #00b300;
+    background-color: #97CDFF;
+    text-align: center;
+    font-size: 40pt;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
 }

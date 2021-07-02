@@ -1,23 +1,23 @@
 h {
-    color: green;
+    color: #2D8F4E;
     text-align: center;
     font-size: 40pt;
     font-weight: bold;
     font-family:Georgia, 'Times New Roman', Times, serif;
     position: absolute;
-    top: 8%;
+    top: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 body {
     background-color: #ADD8E6;
-    justify-content: center;
 }
 
 #gameBox {
-    width: 1300px;
-    height: 700px;
+    border: 10px ridge #50C878;
+    width: 1500px;
+    height: 800px;
     background-color: grey;
     position: absolute;
     top: 50%;
@@ -28,10 +28,63 @@ body {
 
 #wordBox {
     align-content: center;
-    border: 1px solid black;
 }
 
-table {
+#imageBox {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#hangmanPic {
+    border: black 4px solid;
+}
+
+#letterBox {
+    width: 1400px;
+    height: 250px;
+    position: absolute;
+    top: 81%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: #50C878 8px ridge;
+    background-color: #71a6d2;
+}
+
+#letterTableTop {
+    display: inline-table;
+    text-align: center;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-spacing: 20px;
+    padding-top: 22px;
+    table-layout: fixed;
+    width: 100%;
+}
+
+#letterTableBottom {
+    display: inline-table;
+    text-align: center;
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-spacing: 20px;
+    table-layout: fixed ;
+    width: 90%;
+}
+
+.letters {
+    border: 2px solid black;
+    font-size: 40pt;
+    background-color: #81B622;
+}
+
+
+#wordTableOutside {
     position: absolute;
     top: 10%;
     left: 50%;
@@ -39,7 +92,7 @@ table {
     border: 1px solid black;
 }
 
-th {
+.wordClass {
     padding: 5px;
     border: 1px solid black;
     font-size: 40pt;

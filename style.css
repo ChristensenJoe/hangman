@@ -20,6 +20,7 @@ body {
 }
 
 #gameBox {
+    display: none;
     border: 10px ridge #50C878;
     width: 1500px;
     height: 800px;
@@ -116,6 +117,19 @@ body {
     align-content: center;
 }
 
+#startBox {
+    display: block;
+    border: 10px ridge #50C878;
+    width: 800px;
+    height: 800px;
+    background-color: grey;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-content: center;
+}
+
 #gameOverHeader {
     color: #00b300;
     text-align: center;
@@ -163,6 +177,80 @@ body {
 }
 
 #restartButton {
+    border: 6px ridge #50C878;
+    color: #00b300;
+    background-color: #97CDFF;
+    text-align: center;
+    font-size: 40pt;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+#difficultyHeader {
+    color: #00b300;
+    text-align: center;
+    font-size: 50pt;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#easyButton {
+    border: 6px ridge #50C878;
+    color: #00b300;
+    background-color: #97CDFF;
+    text-align: center;
+    font-size: 40pt;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+#mediumButton {
+    border: 6px ridge #50C878;
+    color: #00b300;
+    background-color: #97CDFF;
+    text-align: center;
+    font-size: 40pt;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+#hardButton {
     border: 6px ridge #50C878;
     color: #00b300;
     background-color: #97CDFF;
